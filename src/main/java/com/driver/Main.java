@@ -13,9 +13,12 @@ public class Main {
      }
      
    }
-  Product p=new Product();
-  p.product(3,4);
-  p.product(2,4,6);
-  p.product(2.5,5.5);
+  public static void main(String[] args) {
+        Product p = new Product();
+
+        System.out.println(p.product(3, 4));       // 12
+        System.out.println(p.product(2, 4, 6));    // 48
+        System.out.println(p.product(2.5, 5.5));   // 13.75
+    }
   
 }
